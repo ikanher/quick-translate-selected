@@ -8,7 +8,7 @@ Translation is done using Google Translate.
 
 ## Installation
 
-Download the [xpi](quick_translate_selected-0.1-fx.xpi).
+Download the [xpi](https://github.com/ikanher/quick-translate-selected/blob/master/quick_translate_selected-0.1-fx.xpi?raw=true).
 
 Go to 'about:addons' in Firefox. Click the settings wheel. Choose 'Install Add-on From File'. Navigate to xpi and click 'Open'.
 
