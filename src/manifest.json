@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Quick Translate Selected",
+  "description": "Translates selected text using Google Translate. Translation will be displayed in a notification.",
+  "version": "0.1",
+  "applications": {
+    "gecko": {
+      "id": "quick-translate-selected@rehn.fi",
+      "strict_min_version": "48.0"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "menus",
+    "notifications",
+    "storage",
+    "tabs",
+    "<all_urls>"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  }
+}
