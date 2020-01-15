@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Quick Translate Selected",
   "description": "Translates selected text using Google Translate. Translation will be displayed in a notification.",
-  "version": "0.2",
+  "version": "0.3",
   "applications": {
     "gecko": {
       "id": "quick-translate-selected@rehn.fi",
