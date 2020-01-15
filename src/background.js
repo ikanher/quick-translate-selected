@@ -12,7 +12,7 @@ notify = (translation) => {
 
 displayTranslation = (query) => {
 
-    browser.storage.local.get({ 'src-lang': 'en', 'dst-lang': 'fi' }).then((res) => {
+    browser.storage.local.get({ 'src-lang': 'auto', 'dst-lang': 'fi' }).then((res) => {
         let url = translationURL + '/translate_a/single?client=gtx'
         url += '&sl=' + res['src-lang']
         url += '&tl=' + res['dst-lang']
