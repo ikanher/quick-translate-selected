@@ -9,7 +9,7 @@ saveOptions = (e) => {
 }
 
 restoreOptions = () => {
-    restoreOption('src-lang', 'en')
+    restoreOption('src-lang', 'auto')
     restoreOption('dst-lang', 'fi')
 }
 
