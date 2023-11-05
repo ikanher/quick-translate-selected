@@ -6,7 +6,7 @@
   "applications": {
     "gecko": {
       "id": "quick-translate-selected@rehn.fi",
-      "strict_min_version": "48.0"
+      "strict_min_version": "49.0"
     }
   },
   "background": {
@@ -18,6 +18,10 @@
     "storage",
     "tabs",
     "<all_urls>"
+  ],
+  "web_accessible_resources": [
+    "translationPopup.html",
+    "translationPopup.js"
   ],
   "options_ui": {
     "page": "options.html",
